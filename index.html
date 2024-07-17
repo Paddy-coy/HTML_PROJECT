@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    
+  </head>
+  <body>
+    <header>
+      <h1>Hi,This is Patrick</h1>
+      <hr>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About_me</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#skills">My Skills</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#contact">Contact me</a>
+          </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#site">Site</a>
+            </li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <main>
+      <article id="about">
+        <h2>About me</h2>
+        <p>
+          My name is <strong>Okoro Patrick Chidera,</strong>
+          <em>
+            i am an igbo boy, i hail from ebonyi state of ohaozara local
+            government. I am the fourth of the six children given birth in my
+            family,I was born into a comfortable home, where my mother sells
+            food and my late father sells machine spare parts. I was given birth
+            in ikom local government area of cross river state, where i attended
+            holy family primary school and obtained my first school leaving
+            certificate. And relocated to asaba,delta state where i attended
+            <mark>Honour roll international schools</mark> where i was given the
+            senior prefect of the prestigious school. I was ten years old when i
+            lost dad, that was really difficult for my family things became
+            worst i had to drop from school due,to lack of funds. I started
+            begging people around me just to feed things went sour for me i had
+            to relocate to asaba to find greener pastures which i later found by
+            the grace of God. in my family. We have two boys and four girls i
+            have an elder brother who caters for me and my family he was the one
+            who brought the idea of programming when i finished high school at
+            first i said no because i thought programming was too difficult, so
+            he persisted he got me a laptop to code so i started watching
+            youtube tutorials, and really got fascinated about programming in
+            general. I started learning amazing stuffs,building projects but i
+            wasn't satisfied so i enrolled in
+            <b
+              >altschoolafrica and alx africa!!! to
+              <em>brush of my coding skills</em> i hope this would be an
+              audacious journey cause i want to really build projects.</b
+            >
+          </em>
+        </p>
+      </article>
+      <section id="projects">
+        <h2>My Projects</h2>
+        <p>
+          Currently i have built like three projects in freecode camp challenge
+          during the time i was learning <b>coding</b> on my own i was asked to
+          build this same kind of website and i should replicate a figma design
+          from scratch using <mark><b>HTML and CSS</b></mark> currently i
+          haven't built any project of mine because i am a lazy engineer but
+          what is on my mind to build right now is to build a web based
+          calculator with <b>JS.</b>
+        </p>
+      </section>
+      <aside id="skills">
+        <h2>MY SKILLS</h2>
+        <details>
+          <summary>Do You want to know my skills?</summary>
+          <p>
+            I wouldn't say i have much technical skills i have a basic
+            understanding of <b>HTML,CSS and JS,</b>While i joined
+            altschoolafrica is to increase my knowledge and brush of my
+            <mark>Coding skills.</mark>
+          </p>
+        </details>
+      </aside>
+      <article id="contact">
+        <h2>Contact form</h2>
+        <form action="form.html" method="get">
+          <fieldset>
+            <legend>Enter the above form</legend>
+          <p>
+            <label for="firstname">Firstname:</label>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              required
+              autofocus
+              autocomplete="on"
+              placeholder="patrick"
+            />
+          </p>
+          <p>
+            <label for="lastname">Lastname:</label>
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              required
+              autocomplete="on"
+              placeholder="chidera"
+            />
+          </p>
+          <p>
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              autocomplete="on"
+              placeholder="Enter your secret"
+            />
+          </p>
+          <p>
+            <label for="phone">Phone:</label>
+            <input
+              type="tel"
+              name="tel"
+              id="phone"
+              placeholder="08037185613"
+              pattern="[0-9]{4}[0-9]{4}[0-9]{3}"
+            autocomplete="on"/>
+          </p>
+          <p>
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" name="birth" id="birthdate" />
+          </p>
+          <p>
+            <label for="age">Age:</label>
+            <input
+              type="number"
+              name="age"
+              id="age"
+              min="10"
+              max="200"
+              step="10"
+              value="20"
+            />
+          </p>
+          <p>
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="female" />
+          </p>
+          <p>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="male" />
+          </p>
+          <p>
+            <label for="message">Message me</label>
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </p>
+          <button type="submit">submit</button>
+          <button type="reset">reset</button>
+        </fieldset>
+        </form>
+      </article>
+      <hr>
+      <footer id="site">
+        <h2>Where You can find me</h2>
+        <p>
+          <a href="https://github.com/" target="_blank">Github link</a>
+        </p>
+        <p>
+          <a href="https://x.com/i/flow/login">X</a>
+        </p>
+        <p>
+          <a href="mailto:okorochidera523@gmail.com">Email Address</a>
+        </p>
+        <hr>
+        <a href="#">Back to Top</a>
+        <p>&lt;&lt; &copy; Okoro Patrick all rights reserved &gt;&gt;</p>
+      </footer>
+    </main>
+  </body>
+</html>
