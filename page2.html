@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cat Photo App</h1>
+  </header>
+  <main>
+  <section>
+    <h2 class="blue">Cat Photos</h2>
+    <p>
+      <em>see more cat <a href="https://www.pexels.com/search/cat%20photos/" target="_blank">cat photos </a>in our gallery</em>
+    </p>
+  </section>
+  <figure class="figure-one">
+    <picture>
+      <source media="(max-width:100px )" srcset="assets/secondcat.jpg">
+      <source media="(min-width:400px )" srcset="assets/cat.jpg" >
+      <img src="assets/cat.jpg" alt="cute cat" loading="lazy" width="200" height="100">
+      <img src="assets/secondcat.jpg" alt="Another beautiful looking cat" loading="lazy" width="300" height="400">
+    </picture>
+    <figcaption>Beautiful Looking Cat</figcaption>
+  </figure>
+  <figure class="figure-two">
+    <img src="assets/secondcat.jpg" alt="Beautiful looking cat" loading="lazy" title="This is a beautiful looking cat anywhere" width="200" height="200">
+  </figure>
+  <article class="article">
+<h2>
+  Cat lists
+</h2>
+<h3>Things cat love:</h3>
+<ul>
+  <li>Cat nips</li>
+  <li>Laser Pointers</li>
+  <li>lasagna</li>
+</ul>
+  </article>
+  <figure id="lasagna">
+    <a href="https://plus.unsplash.com/premium_photo-1671559021023-3da68c12aeed?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFzYWduYXxlbnwwfHwwfHx8MA%3D%3D">
+    <img src="assets/Lasagna.jpg" alt="Hungry looking lasagna" loading="lazy" width="200" height="320">
+  </a>
+    <figcaption>I want to eat this hungry looking lasagna</figcaption>
+  </figure>
+  <article class="article">
+ <h3>Top three Things cat hate</h3>
+ <ol>
+  <li>flea Treatment</li>
+  <li>thunder</li>
+  <li>Other cats</li>
+ </ol> 
+  </article>
+  <figure class="lasagna">
+    <a href="https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&w=400">
+    <img src="https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Beautiful looking cats anywhere" loading="lazy">
+  </a>
+  <figcaption>Cat hate other cats</figcaption>
+  </figure>
+  <article class="article">
+    <h3>Cat Form</h3>
+<form action="form.html">
+  <fieldset>
+    <legend>Is your cat an indoor or outdoor cat?
+    </legend>
+    <br>
+      <label for="indoor">Indoor</label>
+      <input type="radio" name="cat" id="indoor">
+      <label for="outdoor">Outdoor</label>
+      <input type="radio" name="cat" id="outdoor" required>
+  </fieldset>
+  <fieldset>
+<legend>What is your cat's Personality?</legend>
+<input type="checkbox" name="personality" id="loving">
+<label for="loving">Loving</label>
+<input type="checkbox" name="personality" id="lazy">
+<label for="lazy">Lazy</label>
+<input type="checkbox" name="personality" id="energetic" checked>
+<label for="energetic">Energetic</label>
+  </fieldset>
+<input type="text" name="cat" id="cat-photo" autocomplete="on" autofocus required placeholder="cat photo url">
+<label for="cat-photo"></label>
+<input type="submit" value="submit">
+</form>
+  </article>
+  <p>
+    <em>No copyright <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freecodecamp.org</a></em>
+  </p>
+  </main>
+</body>
+</html>
